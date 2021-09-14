@@ -1,9 +1,9 @@
 import React from 'react';
 
-export default function About() {
+function About() {
   return (
-    <div class="container-aboutme">
-      <div class="row align-items-center">
+    <div className="container-aboutme">
+      <div className="row align-items-center">
         <div id="about-me" class="about-title col-5">About Me</div>
         <div class="about-section col-7">
           <h1>About Page</h1>
@@ -17,3 +17,5 @@ export default function About() {
     </div>
   );
 }
+
+export default About;

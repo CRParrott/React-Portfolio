@@ -1,13 +1,85 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: futura-pt, sans-serif;
+  line-height: 1.5;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.navbar {
+  background-color: #1E90FF;
+}
+
+.nav-link {
+  color: white;
+}
+
+.navbar-brand {
+  color: black;
+  text-align: right;
+}
+
+/* .jumbotron {
+  background-image: url("./images/OceanBackground.jpg");
+  color: whitesmoke;
+  text-align: end;
+} */
+
+.container-aboutme {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.about-section {
+  border-style: solid;
+  border-right: transparent;
+  border-top: transparent;
+  border-bottom: transparent;
+  border-color: #7B68EE;
+  margin-bottom: 10px;
+}
+
+.projects {
+  text-align: center;
+  position: absolute;
+  right: 18%;
+
+}
+
+.card-cov {
+  border-style: solid;
+  border-color: rgb(181, 0, 0);
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  text-align: center;
+  width: 81.3%;
+}
+
+.projects-lower {
+  text-align: center;
+  width: 100%;
+}
+
+.card {
+  width: 37%;
+}
+
+.card-work {
+  border-style: solid;
+  border-color: rgba(34, 34, 173, 0.596);
+  border-width: 75%;
+}
+
+.card-code {
+  border-style: solid;
+  border-color: #2589bd;
+  border-width: 75%;
+}
+
+.Contact {
+  margin-top: 10px;
+  text-align: center;
+  width: 100%;
+  border-style: solid;
+  border-bottom: transparent;
+  border-right: transparent;
+  border-left: transparent;
+  border-color: #191970;
 }
